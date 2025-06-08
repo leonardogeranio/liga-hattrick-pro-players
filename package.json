@@ -8,7 +8,7 @@
   "scripts": {
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test --watch=false"
+    "test": "ng test"
   },
   "dependencies": {
     "@angular/animations": "^19.0.0",
