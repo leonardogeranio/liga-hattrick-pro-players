@@ -22,7 +22,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(routes),
     AppComponent,
     HomeComponent,
     TeamsComponent,
@@ -32,7 +34,6 @@ const routes: Routes = [
     ChampionsComponent,
     AboutComponent
   ],
-  imports: [BrowserModule, RouterModule.forRoot(routes)],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
