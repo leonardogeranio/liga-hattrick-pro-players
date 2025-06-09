@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Rodar build Angular com baseHref
-        run: ng build --base-href /liga-hattrick-pro-players/
+        run: npx ng build --base-href /liga-hattrick-pro-players/
 
       - name: Deploy para GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
